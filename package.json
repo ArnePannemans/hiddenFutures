@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node backend/index.js",
-    "frontend": "http-server frontend"
+    "frontend": "http-server frontend",
+    "postinstall": "cd backend && npm install"
   },
   "keywords": [],
   "author": "Arne Pannemans",
