@@ -53,6 +53,5 @@ Currently thinking of making the pixel generation process less `random` and more
 
 ### Future Research
 
-- **Shannon Entropy**: Looking into methods to control the randomness of pixel values, making them more like the information content found in natural images. For example, instead of every pixel being completely random, we can adjust the randomness to create more structured images.
-- **Spatial Correlations**: Trying out techniques to make neighboring pixels more similar, just like in real images where adjacent pixels tend to have similar colors. This could involve using Perlin noise or taking inspiration from existing photos to create more natural-looking textures.
-- **Natural Image Statistics**: Exploring how real images are structured and using that knowledge to guide our image generation. This way, the generated images will have patterns and structures similar to what we see in the real world.
+- **Shannon Entropy**: Looking into methods to control the randomness of pixel values, making them more like the information content found in natural images
+- **Sampling natural images**:  Starting with a set of 10 sample images, analyzing their pixel distributions, and using this data to guide the generation of new images.
