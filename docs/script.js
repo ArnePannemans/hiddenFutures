@@ -1,6 +1,8 @@
 import { backendUrl } from './config.js';
 import logger, { setLoggingEnabled } from './logger.js';
 
+// comment to force new github pages deployment
+
 let gridSize;
 let grayscaleValues;
 
