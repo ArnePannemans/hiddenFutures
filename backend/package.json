@@ -15,5 +15,13 @@
     "multer": "^1.4.5-lts.1",
     "plotly": "^1.0.6",
     "sharp": "^0.33.4"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

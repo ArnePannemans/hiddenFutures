@@ -1,7 +1,7 @@
 {
   "name": "project_papa",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a fun 'art' project built together with my dad. The main functionality is a UI that allows users to play and experiment with converting really big numbers into images and vice versa. The idea is that every image you can imagine—whether it's a picture of how you'll look when you're 80, the view from the top of Mount Everest, or the winning lottery numbers for next week—exists somewhere within a grid of pixels, each associated with a unique number. You can start from a randomly generated number, choose a number yourself, or upload an image.",
   "main": "backend/index.js",
   "type": "module",
   "scripts": {
@@ -11,5 +11,12 @@
   },
   "dependencies": {
     "http-server": "^0.12.3"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
