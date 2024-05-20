@@ -1,3 +1,4 @@
+import { backendUrl } from './config.js';
 import logger, { setLoggingEnabled } from './logger.js';
 
 let gridSize;
@@ -27,7 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             formData.append('image', file);
 
             try {
-                const response = await fetch('http://localhost:3000/upload', {
+                const response = await fetch(`${backendUrl}/upload`, {
                     method: 'POST',
                     body: formData
                 });
@@ -59,7 +60,7 @@ document.addEventListener('DOMContentLoaded', async () => {
  */
 async function fetchConfig() {
     try {
-        const response = await fetch('http://localhost:3000/config');
+        const response = await fetch(`${backendUrl}/config`);
         const config = await response.json();
         logger.log('Fetched config:', config);
         return config;
@@ -99,7 +100,7 @@ function pixelValuesToNumber(pixelValues) {
 async function retrieveImage(number) {
     try {
         logger.log(`Retrieving image for number: ${number}`);
-        const response = await fetch('http://localhost:3000/retrieve', {
+        const response = await fetch('`${backendUrl}/retrieve', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
