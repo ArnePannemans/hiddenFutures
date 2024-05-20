@@ -100,7 +100,7 @@ function pixelValuesToNumber(pixelValues) {
 async function retrieveImage(number) {
     try {
         logger.log(`Retrieving image for number: ${number}`);
-        const response = await fetch('`${backendUrl}/retrieve', {
+        const response = await fetch('${backendUrl}/retrieve', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
