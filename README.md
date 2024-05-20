@@ -53,5 +53,8 @@ Currently thinking of making the pixel generation process less `random` and more
 
 ### Future Research
 
-- **Shannon Entropy**: Looking into methods to control the randomness of pixel values, making them more like the information content found in natural images
-- **Sampling natural images**:  Starting with a set of 10 sample images, analyzing their pixel distributions, and using this data to guide the generation of new images.
+- **Shannon Entropy**: Exploring ways to control the randomness of pixel values to better match the information content in natural images
+- **Sampling Natural Images**: Using a set of 10 sample images to analyze their pixel distributions and then generate new images based on that data
+- **Markov Random Fields (MRF)**: Trying out MRFs to capture how pixels relate to their neighbors, using techniques like Gibbs sampling to create new images with similar patterns
+- **PixelCNN**: Using PixelCNN to model each pixel based on the previous ones
+- **Generative Adversarial Networks (GANs)**: Same but more complex (more data, mode collapse stability issues etc)
