@@ -18,8 +18,12 @@ You can set the grid size and the amount of greyscale values (e.g. resolution of
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
+- **Backend**: Node.js, Express.js (deployed using Heroku)
 - **Image Processing**: Sharp
+
+## Live demo
+
+Try out the [demo](https://arnepannemans.github.io/hiddenFutures/)
 
 ## Setup
 
@@ -42,3 +46,13 @@ You can set the grid size and the amount of greyscale values (e.g. resolution of
 ```bash
    npm run frontend
 ```
+
+## Future research
+
+Currently thinking of making the pixel generation process less `random` and more aligned with how natural images actually look. [Reference](https://hal.science/hal-00453249/document). The idea is that while now all possible pixel configurations are purely random, real images follow different patterns. This change aims to make the generated images more realistic and interesting.
+
+### Future Research
+
+- **Shannon Entropy**: Looking into methods to control the randomness of pixel values, making them more like the information content found in natural images. For example, instead of every pixel being completely random, we can adjust the randomness to create more structured images.
+- **Spatial Correlations**: Trying out techniques to make neighboring pixels more similar, just like in real images where adjacent pixels tend to have similar colors. This could involve using Perlin noise or taking inspiration from existing photos to create more natural-looking textures.
+- **Natural Image Statistics**: Exploring how real images are structured and using that knowledge to guide our image generation. This way, the generated images will have patterns and structures similar to what we see in the real world.
