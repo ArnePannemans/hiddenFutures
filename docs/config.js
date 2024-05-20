@@ -1,1 +1,1 @@
-export const backendUrl = process.env.REACT_APP_BACKEND_URL;
+export const backendUrl = 'https://hidden-futures-22e4c79b9b7c.herokuapp.com';
