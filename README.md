@@ -6,6 +6,12 @@ The underlying philosophy is that all images exist somewhere within this grid an
 
 On the flip side, you can also upload an image and retrieve its magic number. Imagine finding the unique number that represents your favorite photo!
 
+<div style="display: flex; align-items: center;">
+  <img src="images/random.png" alt="Random Image" style="padding: 5px; width: 60%;" />
+  <img src="images/lottooo.png" alt="Lottery Numbers" style="width: 40%; margin-left: 20px;" />
+</div>
+
+
 
 ## Technologies Used
 
