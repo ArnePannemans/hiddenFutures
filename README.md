@@ -23,7 +23,7 @@ You can set the grid size and the amount of greyscale values (e.g. resolution of
 
 ## Live demo
 
-Try out the [demo](https://arnepannemans.github.io/hiddenFutures/)
+Try out the [demo](https://arnepannemans.github.io/hiddenFutures/) (-> took it offline to save costs)
 
 ## Setup
 
